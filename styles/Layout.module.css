@@ -7,11 +7,11 @@
 }
 
 .content {
-  padding: 2rem;
+  padding: 0rem;
   color: var(--text-color);
   font-family: 'JetBrains Mono', monospace;
   flex: 1;
-  height: 85vh;
+  height: 90vh;
   overflow-y: auto;
   scroll-behavior: smooth;
   overflow-x: hidden;

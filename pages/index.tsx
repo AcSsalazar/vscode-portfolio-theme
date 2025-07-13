@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { VscArrowRight } from 'react-icons/vsc';
-
+import Image from 'next/image';
 import styles from '@/styles/HomePage.module.css';
 
 export default function HomePage() {
@@ -91,20 +91,23 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Andres <span className={styles.accentText}>Salazar</span>
           </h1>
 
           <div className={styles.developerRole}>Full Stack Web Developer</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            I build full responsive web applications with modern
+            technologies. Focused user experiences, and practical data visualization for 
+            business site.
           </p>
 
           <div className={styles.actionLinks}>
             <Link href="/projects" className={styles.primaryLink}>
               View Projects <VscArrowRight />
             </Link>
+            
+
           </div>
         </div>
       </div>
@@ -114,14 +117,19 @@ export default function HomePage() {
         <div className={styles.gridLines}></div>
         <div className={styles.codeBlock1}>{'{'}</div>
         <div className={styles.codeBlock2}>{'}'}</div>
-        <div className={styles.codeBlock3}>{'<>'}</div>
-        <div className={styles.codeBlock4}>{'/>'}</div>
+        <div className={styles.imageContainer}>
+        <Image style={{ borderRadius: '8px', boxShadow: '0px 0px 20px 9px #16307f87;'}}
+        src="/background.jpeg"
+        alt='</'
+        width={430}
+        height={580}/></div>
+        <div className={styles.codeBlock4}>{'{'}</div>
         <div className={styles.orb1}></div>
         <div className={styles.orb2}></div>
         <div className={styles.orb3}></div>
-        <div className={styles.codeSymbol1}>{'()'}</div>
-        <div className={styles.codeSymbol2}>{'[]'}</div>
-        <div className={styles.codeSymbol3}>{'=>'}</div>
+        <div className={styles.codeSymbol1}>{':'}</div>
+        <div className={styles.codeSymbol2}>{';'}</div>
+        <div className={styles.codeSymbol3}>{'='}</div>
         <div className={styles.dotPattern}></div>
         <div className={styles.mobileAccent}></div>
       </div>

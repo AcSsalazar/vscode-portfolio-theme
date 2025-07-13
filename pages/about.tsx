@@ -4,19 +4,19 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Nitin Ranganath</h1>
-        <div className={styles.subtitle}>Software Engineer</div>
+        <h1 className={styles.title}>Andres Salazar</h1>
+        <div className={styles.subtitle}>Electronic Engineer</div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I&apos;m a software engineer from Mumbai, India. I primarily
-              work with JavaScript / TypeScript and the React ecosystem.
+              Hey! I&apos;m a electronic engineer from Colombia. I primarily
+              work with JavaScript / TypeScript & Python.
             </p>
             <p className={styles.paragraph}>
-              I&apos;m focused on frontend development with React, but
-              you&apos;ll also find me working with Node.js, MongoDB and Express
-              while building the backend for my personal projects.
+              I&apos;m focused on frontend development with React, and Django for the backend but
+              you&apos;ll also find me working with Python-notebooks, AWS and Data Analitics
+              im really enjoy the frontend implemetation.
             </p>
           </section>
 

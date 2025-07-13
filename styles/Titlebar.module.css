@@ -30,30 +30,34 @@
 
 .windowButtons {
   flex: 1;
+  gap: 16px;
+  margin-right: 9px;
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
 .windowButtons * {
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   height: 13px;
   width: 13px;
-  border-radius: 50%;
+
   cursor: pointer;
 }
 
 .minimize {
-  background: #f1fa8c;
+
   margin-left: auto;
+  filter: invert();
 }
 
 .maximize {
-  background: #50fa7b;
+  
+  filter: invert();
 }
 
 .close {
-  background: #ff5555;
+  filter: invert();
 }
 
 @media screen and (max-width: 900px) {
