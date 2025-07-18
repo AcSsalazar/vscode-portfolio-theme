@@ -14,9 +14,9 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
-    { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
+    { code: "    name: 'Andres Salazar',", type: 'array-item' },
+    { code: "    role: 'Full Stack Developer - Data analyst',", type: 'array-item' },
+    { code: "    bio: 'Building UI for ML models and Neural Networks'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -97,9 +97,10 @@ export default function HomePage() {
           <div className={styles.developerRole}>Full Stack Web Developer</div>
 
           <p className={styles.bio}>
-            I build full responsive web applications with modern
-            technologies. Focused user experiences, and practical data visualization for 
-            business site.
+            Hi visitor, welcome to my portfolio, in this website you will fing some of my projects, 
+            my contact chanels and a little bit about me.
+            Hope you enjoy navigatin it!
+
           </p>
 
           <div className={styles.actionLinks}>
@@ -117,12 +118,7 @@ export default function HomePage() {
         <div className={styles.gridLines}></div>
         <div className={styles.codeBlock1}>{'{'}</div>
         <div className={styles.codeBlock2}>{'}'}</div>
-        <div className={styles.imageContainer}>
-        <Image style={{ borderRadius: '8px', boxShadow: '0px 0px 20px 9px #16307f87;'}}
-        src="/background.jpeg"
-        alt='</'
-        width={430}
-        height={580}/></div>
+
         <div className={styles.codeBlock4}>{'{'}</div>
         <div className={styles.orb1}></div>
         <div className={styles.orb2}></div>

@@ -20,6 +20,15 @@
   background: var(--accent-color);
 }
 
+
+.icon {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+.keyword {
+  color: rgb(209, 209, 28) !important;
+}
 .line {
   position: relative;
   padding-left: 2.5rem;

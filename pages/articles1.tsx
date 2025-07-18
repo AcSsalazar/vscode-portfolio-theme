@@ -1,4 +1,4 @@
-import ArticleCard from '@/components/ArticleCard';
+/* import ArticleCard from '@/components/ArticleCard';
 
 import { Article } from '@/types';
 
@@ -52,3 +52,4 @@ export async function getStaticProps() {
 }
 
 export default ArticlesPage;
+ */
