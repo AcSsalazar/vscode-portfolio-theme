@@ -27,9 +27,9 @@ const explorerItems = [
     icon: '/logos/js_icon.svg',
   },
   {
-    name: 'beyond.json',
+    name: 'beyond.py',
     path: '/beyond',
-    icon: '/logos/json_icon.svg',
+    icon: '/logos/python.svg',
   },
   {
     name: 'github.md',

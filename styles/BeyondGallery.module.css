@@ -50,7 +50,7 @@
   display: inline-block;
   color: rgb(255, 253, 238);
   position: relative;
-  background-color: rgba(255, 254, 246, 0.726);
+  background-color: rgba(25, 25, 25, 0.726);
 }
 
 
@@ -103,3 +103,31 @@
 .opacityLow {
   opacity: 0.9;
 }
+
+
+@media screen and (max-width: 600px) {
+
+
+
+.seccion {
+  box-sizing: border-box;
+  padding: 2px;
+  max-width: 580px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.imgBoxHor {
+
+  width: 310px;
+  height: 430px;
+  border-radius: 10px;
+  transform: none;
+  
+}
+
+
+}
+  
+
+  

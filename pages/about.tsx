@@ -43,7 +43,7 @@ const AboutPage = () => {
   };
 
   const dataSets = {
-    'Full-Stack': [[6, 7, 5, 7, 5]],
+    'Full-Stack': [[6, 7, 7, 7, 5]], 
     'Software': [[8, 6, 5, 6, 7]],
     'Others': [[7, 7, 7, 5, 5]]
   };

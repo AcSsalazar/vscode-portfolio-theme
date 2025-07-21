@@ -1,4 +1,4 @@
-# vscode-portfolio
+# Portfolio with VScode theme
 
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
@@ -7,10 +7,13 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 
 
-🧑‍💻 Developer Portfolio with VS Code Theme
+#### 🧑‍💻 Developer Portfolio with VS Code Theme
+
 A unique and visually engaging portfolio designed to look and feel like Visual Studio Code. Inspired by the original repository by Nitin Ranganath (@itsnitinr), this version includes several enhancements and custom features that make it even more personal and powerful.
 
-🔧 Key Features:
+### 🔧 Key Features:
+
+
 VS Code-inspired Interface: Includes a top tab bar, file explorer, and sidebar for intuitive navigation.
 
 Multiple Pages: Each page mimics a file in a code editor (e.g., about.json, projects.js, beyond.json).
@@ -21,10 +24,10 @@ Radar Chart in About Page: A skills radar chart for a more visual and interactiv
 
 Fully Customizable: Modify styles, add more files/pages, or integrate new components to suit your personal brand.
 
-🛠 How to Run Locally:
+### 🛠 How to Run Locally:
+
+
 Clone the repository and run the following commands in your terminal:
-
-
 
 For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
 

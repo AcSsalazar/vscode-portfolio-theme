@@ -14,8 +14,8 @@ export default function HomePage() {
     },
     { code: '  const developerInfo = {', type: 'variable' },
     { code: "    name: 'Andres Salazar',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer - Data analyst',", type: 'array-item' },
-    { code: "    bio: 'Building UI for ML models and Neural Networks'", type: 'array-item' },
+    { code: "    role: 'Full Stack Web Developer - Data analyst',", type: 'array-item' },
+    { code: "    bio: 'Hi visitor, welcome to my portfolio, in this website....'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
     { code: '  useEffect(() => {', type: 'nested-function' },
@@ -32,7 +32,7 @@ export default function HomePage() {
     { code: '      <p>{developerInfo.role}</p>', type: 'object-method' },
     { code: '      <div className="cta">', type: 'object-method' },
     {
-      code: '        <Link href="/projects">View Projects</Link>',
+      code: '        <Link href="/about">About Me</Link>',
       type: 'object-method',
     },
     { code: '      </div>', type: 'object-method' },
@@ -93,7 +93,7 @@ export default function HomePage() {
             Andres <span className={styles.accentText}>Salazar</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Full Stack Web Developer - Data analyst</div>
 
           <p className={styles.bio}>
             Hi visitor, welcome to my portfolio, in this website you will fing some of my projects, 
@@ -103,8 +103,8 @@ export default function HomePage() {
           </p>
 
           <div className={styles.actionLinks}>
-            <Link href="/projects" className={styles.primaryLink}>
-              View Projects <VscArrowRight />
+            <Link href="/about" className={styles.primaryLink}>
+              About Me<VscArrowRight />
             </Link>
             
 
