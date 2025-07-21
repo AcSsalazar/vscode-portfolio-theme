@@ -13,10 +13,22 @@ const BeyondPage = () => {
       </p>
       <div className={styles.container}>
         
-          <BeyondGallery />
+          <BeyondGallery/>
         
       </div>
-    </div>
+      <section>
+        <p className={styles.pageSubtitleEnd}>
+          Thanks for stopping by! That was a little glimpse into the things I love.  
+          Most of the time, you&apos;ll find me reading, enjoying coffee or beer, or practicing guitar or drums. 
+         <span className={styles.seeYou}>   See you around </span><span className={styles.cursor}>|</span>
+        </p>
+    
+        
+          
+    
+      </section>
+      </div>
+      
   );
 };
 

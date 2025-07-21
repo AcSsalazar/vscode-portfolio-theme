@@ -6,8 +6,8 @@ import * as echarts from 'echarts/core';
 import { RadarChart } from 'echarts/charts';
 import { TitleComponent } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
-
-// Registrar componentes
+import Link from 'next/link';
+// Register the components
 echarts.use([TitleComponent, RadarChart, CanvasRenderer]);
 
 const AboutPage = () => {
@@ -133,79 +133,93 @@ const AboutPage = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category]);
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <h1 className={styles.title}>Andres Salazar</h1>
-        <div className={styles.subtitle}>Electronic Engineer</div>
+return (
+  <div className={styles.container}>
+    <div className={styles.content}>
+      <h1 className={styles.title}>Andres Salazar</h1>
+      <div className={styles.subtitle}>Electronic Engineer - Data Analyst</div>
 
-        <div className={styles.aboutContent}>
-          <section className={styles.section}>
-            <p className={styles.paragraph}>
-              Hey! I&apos;m an electronic engineer from Colombia. I primarily work with React,
-              Next, Python and AWS.
-            </p>
-            <p className={styles.paragraph}>
-              I&apos;m focused on frontend development with React and Django for the backend, but
-              you&apos;ll also find me working with Python notebooks, AWS and Data Analytics. I
-              really enjoy frontend implementation.
+      <div className={styles.aboutContent}>
+        <section className={styles.section}>
+          <p className={styles.paragraph}>
+            Hey! I&apos;m an electronic engineer from Colombia. I primarily work with React,
+            Next.js, Python, and AWS.
+          </p>
+          <p className={styles.paragraph}>
+            My main focus is frontend development using React, often paired with Django for the backend.
+            But I also spend a good amount of time working with Python notebooks, AWS services, and data analytics.
+            I genuinely enjoy bringing interfaces to life through clean, responsive design.
+            <br /><br />
+            I build fully responsive web applications using modern technologies, with a strong focus
+            on intuitive user experiences and dynamic data visualizations.
+            My work often supports machine learning models, neural networks, AI agents, and analytical reports—
+            translating complex data into clear, actionable insights through user-friendly interfaces.
+          </p>
+        </section>
 
-            I build fully responsive web applications using modern technologies, focus 
-            on intuitive user experiences and dynamic data visualizations. 
-            My work supports machine learning 
-            models, neural networks, AI agents, and data analysis reporting—turning complex data into clear, actionable insights
-            through frontend friendly interfaces.
-            </p>
-          </section>
+        <section className={styles.section}>
+          <h2 className={styles.sectionTitle}>Experience</h2>
+          <p className={styles.paragraph}>
+            I&apos;ve worked for almost two years as a <span className={styles.highlight}>junior</span> developer,
+            building web applications with Django Rest Framework and React or Next.js.
+            I&apos;ve also customized websites and e-commerce platforms in WordPress, where I created functional code snippets
+            to implement things like custom forms, sliders, and third-party integrations.
+            Additionally, I worked on CSS restyling and landing page development.
+            <br /><br />
+            Beyond coding, I also configured web hosting environments to support Python applications, APIs, and email services.
+          </p>
+        </section>
 
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Experience</h2>
-            <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}>Tessact</span> as Software Engineer
-              2, working with a lean team of 4 frontend engineers to build a next-gen video
-              creation suite.
-            </p>
-          </section>
-
-          {/* Botones de selección */}
-          <div className={styles.buttonGroup}>
-            {(['Full-Stack', 'Software', 'Others'] as const).map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setCategory(cat)}
-                style={{
-                  padding: '0.5rem 1rem',
-                  background: category === cat ? colors[cat] : '#333',
-                  color: '#fff',
-                  border: 'none',
-                  borderRadius: '4px',
-                  cursor: 'pointer',
-                  fontFamily: 'JetBrains Mono, monospace',
-                }}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
-
-          <div
-            className={styles.chartContainer}
-            ref={chartRef}
-            style={{ width: '100%', height: '400px' }}
-          />
-
-          <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Beyond Code</h2>
-            <p className={styles.paragraph}>
-              Aside from programming and writing, I like to read dystopian novels, listen to calm
-              piano music or just relax.
-            </p>
-          </section>
+        {/* Botones de selección */}
+        <div className={styles.buttonGroup}>
+          {(['Full-Stack', 'Software', 'Others'] as const).map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setCategory(cat)}
+              style={{
+                padding: '0.5rem 1rem',
+                background: category === cat ? colors[cat] : '#333',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '4px',
+                cursor: 'pointer',
+                fontFamily: 'JetBrains Mono, monospace',
+              }}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
+
+        <div
+          className={styles.chartContainer}
+          ref={chartRef}
+          style={{ width: '100%', height: '400px' }}
+        />
+
+
+        <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Education</h2>
+<p className={styles.paragraph}>
+I hold a degree in Electronic Engineering from the <Link href='https://unal.edu.co/' className={styles.linksunal}> National University of Colombia</Link>
+(UNAL), and I completed a postgraduate specialization in Data Science and Artificial Intelligence from the <Link href='https://udemedellin.edu.co/' className={styles.linksudem}>
+Universidad De Medellín</Link>.
+This academic background gave me solid foundations in both hardware and software. 
+I see this field as a continuous journey of learning—always discovering useful papers, tools, and concepts that inspire me to improve.
+</p>
+
+
+
+</section>
+
       </div>
+
+
+
     </div>
-  );
-};
+  </div>
+);
+}
 
 export async function getStaticProps() {
   return {

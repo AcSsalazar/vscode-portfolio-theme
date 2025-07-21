@@ -10,14 +10,16 @@ function BeyondGallery() {
         <Image 
           src="/music.jpeg"
           alt="Deep House Music :)"
-          width={636}
-          height={780}
+          width={836}
+          height={980}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
             <p>The music</p>
-            <p className={styles.opacityLow}>I really enjoy to feel & listen good music, big fan of Hi-Res, 90&apos; vives & I
-                                             the old formats, I have a litle collection of Vinyls and compact DC&apos;s.</p>
+            <p className={styles.opacityLow}>
+              I really enjoy feeling and listening to good music — I&apos;m a big fan of Hi-Res audio and &apos;90s vibes. 
+              I love old formats, and I have a small collection of vinyl records and compact discs.
+            </p>
           </div>
         </div>
       </div>
@@ -25,13 +27,17 @@ function BeyondGallery() {
         <Image 
           src="/medellin.jpeg"
           alt="Medellin in Night"
-           width={636}
-          height={780}
+          width={836}
+          height={980}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
             <p>The City</p>
-            <p className={styles.opacityLow}>One of my favorites cities, where im actuallly living righ now, just always goods vives here </p>
+            <p className={styles.opacityLow}>
+              Medellín is one of my favorite cities — and also my current home. 
+              It&apos;s located in a beautiful region of Colombia with an amazing mix of mountains, 
+              rivers, and charming towns.
+            </p>
           </div>
         </div>
       </div>
@@ -39,14 +45,14 @@ function BeyondGallery() {
         <Image 
           src="/cumbal.jpeg"
           alt="Lake Cumbal"
-          width={636}
-          height={780}
+          width={836}
+          height={980}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
             <p>Nature</p>
-            <p className={styles.opacityLow}>Smells, sounds and freedom feling provided by nature has not replace for me, walking and enjoyng the landscape is 
-              one of the best fellings for me.
+            <p className={styles.opacityLow}>The smells, sounds, and feeling of freedom that nature provides are irreplaceable to me. 
+              Walking and enjoying the landscape is one of the best feelings I know.
             </p>
           </div>
         </div>
@@ -55,28 +61,32 @@ function BeyondGallery() {
         <Image 
           src="/vintage.jpeg"
           alt="Vintage Music Formats"
-          width={636}
-          height={780}
+          width={813}
+          height={1080}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
-            <p>Tea Talk</p>
-            <p className={styles.opacityLow}>Composite</p>
+            <p>Lens</p>
+            <p className={styles.opacityLow}>There&apos;s something special about the look of film photography — it always captures my attention. 
+              I&apos;ve started collecting vintage cameras.
+            </p>
           </div>
         </div>
       </div>
 
             <div className={styles.imgBox}>
         <Image 
-          src="/motorsport.jpeg"
+          src="/enginebmw.jpeg"
           alt="Motorsport & Mechanics"
-          width={526}
-          height={680}
+          width={840}
+          height={980}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
-            <p>Tea Talk</p>
-            <p className={styles.opacityLow}>Composite</p>
+            <p>Mortorsport</p>
+            <p className={styles.opacityLow}>The raw sound of engines, the pursuit of limits, 
+              and the awesome engineering behind motorsports has been one of my biggest passions since I was a kid.
+            </p>
           </div>
         </div>
       </div>
@@ -87,13 +97,13 @@ function BeyondGallery() {
           src="/landscape.jpeg"
           alt="Bike landscape"
           width={526}
-          height={680}
+          height={880}
         />
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
             <p>Trocha</p>
-            <p className={styles.opacityLow}>Abosolute disconection with the rutinne, 
-              I forggott everything when i go trough the uncomparable Colombian trochas</p>
+            <p className={styles.opacityLow}>It&apos;s absolute disconnection from routine — 
+              I forget everything when I go through the incomparable trochas of Colombia</p>
           </div>
         </div>
       </div>

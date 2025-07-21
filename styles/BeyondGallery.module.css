@@ -17,10 +17,10 @@
 }
 
 .galleryImage {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .galleryImage img {
@@ -31,10 +31,12 @@
   transition: transform 0.4s ease;
 }
 
+
+
 .imgBoxHor {
 
-  width: 336px;
-  height: 480px;
+  width: 286px;
+  height: 380px;
   border-radius: 10px;
   transform: scale(1);
   transition: transform 0.4s ease;
@@ -84,7 +86,8 @@
 .imgBox:hover .caption {
   transform: translateY(-20px);
   opacity: 1.0;
-  background-color: rgba(38, 39, 41, 0.459);
+  padding: 4px;
+  background-color: rgba(45, 48, 53, 0.507);
   border-radius: 8px;
   right: 10;
 }
@@ -94,7 +97,7 @@
 }
 
 .caption > p:nth-child(2) {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .opacityLow {

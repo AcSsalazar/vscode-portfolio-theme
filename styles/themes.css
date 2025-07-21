@@ -132,8 +132,8 @@
 [data-theme='night-owl'] {
   --main-bg: #011627;
   --bg-text: #031d33;
-  --text-color: #89a4bb;
-  --accent-color: rgb(95, 126, 151);
+  --text-color: #efefef;
+  --accent-color: rgb(84, 121, 151);
   --titlebar-bg: #011627;
   --sidebar-bg: #011627;
   --sidebar-hover-bg: #0e293f;

@@ -31,9 +31,33 @@
 
 .subtitle {
   font-size: 1.1rem;
-  color: var(--text-secondary);
+  color: var(--text-color);
   margin-bottom: 3rem;
 }
+
+
+.linksunal,
+.linksudem
+{
+
+  cursor: pointer;
+  color: var(--accent-color);
+  transition-duration: 0.2s;
+
+}
+
+.linksunal:hover {
+
+  color: #5bb488ce;
+
+}
+
+.linksudem:hover {
+ 
+  color: #b3614dce;
+
+}
+
 
 .aboutContent {
   width: 100%;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import styles from '@/styles/Titlebar.module.css';
-
+/* */
 const Titlebar = () => {
   return (
     <section className={styles.titlebar}>
@@ -21,7 +21,7 @@ const Titlebar = () => {
         <p>Terminal</p>
         <p>Help</p>
       </div>
-      <p className={styles.title}>Andres Salazar Porfolio - Visual Studio Code</p>
+      <p className={styles.title}>Andres Salazar Porfolio</p>
       <div className={styles.windowButtons}>
        
         <span className={styles.minimize}>
@@ -41,7 +41,7 @@ const Titlebar = () => {
             src="/maximize2.png"
             alt="Maximize Icon"
             height={15}
-            width={16}
+            width={15}
           />
         </span>
         <span className={styles.close}>

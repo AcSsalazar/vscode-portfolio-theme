@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { VscArrowRight } from 'react-icons/vsc';
-import Image from 'next/image';
 import styles from '@/styles/HomePage.module.css';
 
 export default function HomePage() {
@@ -118,7 +117,7 @@ export default function HomePage() {
         <div className={styles.gridLines}></div>
         <div className={styles.codeBlock1}>{'{'}</div>
         <div className={styles.codeBlock2}>{'}'}</div>
-
+        <div className={styles.codeBlock3}>{'/'}</div>
         <div className={styles.codeBlock4}>{'{'}</div>
         <div className={styles.orb1}></div>
         <div className={styles.orb2}></div>
