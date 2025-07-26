@@ -96,9 +96,9 @@ export default function HomePage() {
           <div className={styles.developerRole}>Full Stack Web Developer - Data analyst</div>
 
           <p className={styles.bio}>
-            Hi visitor, welcome to my portfolio, in this website you will fing some of my projects, 
-            my contact chanels and a little bit about me.
-            Hope you enjoy navigatin it!
+            Hi visitor, welcome to my portfolio, in this website you will find some of my projects, 
+            my contact channels and a little bit about me.
+            Hope you enjoy navigating it!
 
           </p>
 

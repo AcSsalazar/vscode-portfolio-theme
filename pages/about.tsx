@@ -142,16 +142,15 @@ return (
       <div className={styles.aboutContent}>
         <section className={styles.section}>
           <p className={styles.paragraph}>
-            Hey! I&apos;m an electronic engineer from Colombia. I primarily work with React,
-            Next.js, Python, and AWS.
+            Hey! I&apos;m an electronic engineer from Colombia. I primarily work with JavaScripit, Python, and AWS.
           </p>
           <p className={styles.paragraph}>
-            My main focus is frontend development using React, often paired with Django for the backend.
-            But I also spend a good amount of time working with Python notebooks, AWS services, and data analytics.
+            My main focus is frontend development using React or NextJs, often paired with Django for backend.
+            But I also spend a good amount of time working with Python notebooks, AWS (SageMaker) and data analytics.
             I genuinely enjoy bringing interfaces to life through clean, responsive design.
             <br /><br />
             I build fully responsive web applications using modern technologies, with a strong focus
-            on intuitive user experiences and dynamic data visualizations.
+            on intuitive user experiences and dynamic <b>data</b> visualizations.
             My work often supports machine learning models, neural networks, AI agents, and analytical reports—
             translating complex data into clear, actionable insights through user-friendly interfaces.
           </p>

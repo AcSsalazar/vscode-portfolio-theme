@@ -84,7 +84,7 @@ function BeyondGallery() {
         <div className={styles.transparentBox}>
           <div className={styles.caption}>
             <p>Mortorsport</p>
-            <p className={styles.opacityLow}>The raw sound of engines, the pursuit of limits, 
+            <p className={styles.opacityLow}>The pure sound of conbustion engines, the pursuit of limits, 
               and the awesome engineering behind motorsports has been one of my biggest passions since I was a kid.
             </p>
           </div>
