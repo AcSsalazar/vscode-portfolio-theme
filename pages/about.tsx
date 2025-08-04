@@ -146,8 +146,8 @@ return (
           </p>
           <p className={styles.paragraph}>
             My main focus is frontend development using React or NextJs, often paired with Django for backend.
-            But I also spend a good amount of time working with Python notebooks, AWS (SageMaker) and data analytics.
-            I genuinely enjoy bringing interfaces to life through clean, responsive design.
+            But I also spend a good amount of time working with Python notebooks, AWS and data analytics.
+            I genuinely enjoy bringing interfaces to life through a clean-responsive design.
             <br /><br />
             I build fully responsive web applications using modern technologies, with a strong focus
             on intuitive user experiences and dynamic <b>data</b> visualizations.
@@ -165,7 +165,7 @@ return (
             to implement things like custom forms, sliders, and third-party integrations.
             Additionally, I worked on CSS restyling and landing page development.
             <br /><br />
-            Beyond coding, I also configured web hosting environments to support Python applications, APIs, and email services.
+            Beyond coding, I have configured web hosting environments to support Python applications, APIs, and email services.
           </p>
         </section>
 
@@ -203,7 +203,7 @@ return (
 I hold a degree in Electronic Engineering from the <Link href='https://unal.edu.co/' className={styles.linksunal}> National University of Colombia</Link>
 (UNAL), and I completed a postgraduate specialization in Data Science and Artificial Intelligence from the <Link href='https://udemedellin.edu.co/' className={styles.linksudem}>
 Universidad De Medellín</Link>.
-This academic background gave me solid foundations in both hardware and software. 
+This academic background provided me with solid foundations in both hardware and software. 
 I see this field as a continuous journey of learning—always discovering useful papers, tools, and concepts that inspire me to improve.
 </p>
 
