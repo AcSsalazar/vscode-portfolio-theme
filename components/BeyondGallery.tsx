@@ -8,7 +8,7 @@ function BeyondGallery() {
     <div className={styles.galleryImage}>
       <div className={styles.imgBox}>
         <Image 
-          src="/music.jpeg"
+          src="/music.webp"
           alt="Deep House Music :)"
           width={836}
           height={980}
@@ -25,7 +25,7 @@ function BeyondGallery() {
       </div>
             <div className={styles.imgBox}>
         <Image 
-          src="/medellin.jpeg"
+          src="/medellin.webp"
           alt="Medellin in Night"
           width={836}
           height={980}
@@ -43,7 +43,7 @@ function BeyondGallery() {
       </div>
       <div className={styles.imgBox}>
         <Image 
-          src="/cumbal.jpeg"
+          src="/cumbal.webp"
           alt="Lake Cumbal"
           width={836}
           height={980}
@@ -59,7 +59,7 @@ function BeyondGallery() {
       </div>
       <div className={styles.imgBox}>
         <Image 
-          src="/vintage.jpeg"
+          src="/vintage.webp"
           alt="Vintage Music Formats"
           width={813}
           height={1080}
@@ -76,7 +76,7 @@ function BeyondGallery() {
 
             <div className={styles.imgBox}>
         <Image 
-          src="/enginebmw.jpeg"
+          src="/enginebmw.webp"
           alt="Motorsport & Mechanics"
           width={840}
           height={980}
@@ -94,7 +94,7 @@ function BeyondGallery() {
 
       <div className={styles.imgBox}>
         <Image 
-          src="/landscape.jpeg"
+          src="/landscape.webp"
           alt="Bike landscape"
           width={526}
           height={880}
