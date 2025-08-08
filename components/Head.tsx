@@ -21,7 +21,7 @@ const CustomHead = ({ title }: CustomHeadProps) => {
         property="og:description"
         content="Full-stack developer and data analyst — building powerful tools and data visualizations that bring insights to life."
       />
-      <meta property="og:image" content="https://i.imgur.com/cTiioRB.png" />
+      <meta property="og:image" content="https://i.imgur.com/fss14YL.png" />
       <meta property="og:url" content="https://acsalazar.com" />
       <meta name="twitter:card" content="image" />
     </Head>
