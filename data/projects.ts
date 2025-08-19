@@ -35,7 +35,7 @@ export const projects: Project[] = [
     description:
       'Retrieval-Augmented Generation (RAG) system using Pinecone vector database and LangChain for document-based question answering.',
     logo: '/logos/ai-platform.svg',
-    link: 'https://github.com/AcSsalazar/RAG_with_LangChain_and_Pinecone',
+    link: 'https://github.com/AcSsalazar/Forms-With-RAG',
     slug: 'smart-pdf-based-responses',
   },
 ];
