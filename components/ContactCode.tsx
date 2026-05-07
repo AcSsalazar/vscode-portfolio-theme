@@ -34,11 +34,7 @@ const contactItems: { social: Social; link: string; href: string }[] = [
     link: 'ssalazar.andress',
     href: 'https://www.instagram.com/ssalazar.andress',
   },
-  {
-    social: 'whatsapp',
-    link: '+57 301 420 1146',
-    href: 'https://wa.me/573014201146',
-  },
+
 ];
 
 // 📦 Componente que renderiza los contactos como código estilo VSCode

@@ -14,7 +14,7 @@ const AboutPage = () => {
   const chartRef = useRef<HTMLDivElement>(null);
 
   // Estado: categoría seleccionada
-  const [category, setCategory] = useState<'Full-Stack' | 'Software' | 'Others'>('Full-Stack');
+  const [category, setCategory] = useState<'Full-Stack' | 'AI & Data Science' | 'DevOps'>('Full-Stack');
 
   // Datos e indicadores
   const indicators = {
@@ -26,32 +26,32 @@ const AboutPage = () => {
       { name: 'HTML', max: 10 },
       { name: 'SQL', max: 10 }
     ],
-    'Software': [
-      { name: 'Studio One', max: 10 },
-      { name: 'VScode', max: 10 },
-      { name: 'Office Package', max: 10 },
-      { name: 'DaVinci Resolve', max: 10 },
-      { name: 'Magix', max: 10 }
+    'AI & Data Science': [
+      { name: 'Pytorch', max: 10 },
+      { name: 'GitHub Copilot', max: 10 },
+      { name: 'OpenCode', max: 10 },
+      { name: 'Scikit-Learn', max: 10 },
+      { name: 'TensorFlow', max: 10 }
     ],
-    'Others': [
-      { name: 'Hostinger', max: 10 },
+    'DevOps': [
+      { name: 'Render', max: 10 },
       { name: 'AWS', max: 10 },
-      { name: 'WordPress', max: 10 },
+      { name: 'VPS', max: 10 },
       { name: 'Cpanel', max: 10 },
       { name: 'Vercel', max: 10 }
     ]
   };
 
   const dataSets = {
-    'Full-Stack': [[6, 7, 7, 7, 5]], 
-    'Software': [[8, 6, 5, 6, 7]],
-    'Others': [[7, 7, 7, 5, 5]]
+    'Full-Stack': [[9, 8, 8, 8, 7]], 
+    'AI & Data Science': [[9, 7, 7, 8, 8]],
+    'DevOps': [[7, 8, 7, 6, 8]]
   };
 
   const colors = {
     'Full-Stack': '#F9713C',
-    'Software': '#4238ccff',
-    'Others': '#79cf71ff'
+    'AI & Data Science': '#4238ccff',
+    'DevOps': '#79cf71ff'
   };
 
   useEffect(() => {
@@ -172,7 +172,7 @@ return (
 
         {/* Botones de selección */}
         <div className={styles.buttonGroup}>
-          {(['Full-Stack', 'Software', 'Others'] as const).map((cat) => (
+          {(['Full-Stack', 'AI & Data Science', 'DevOps'] as const).map((cat) => (
             <button
               key={cat}
               onClick={() => setCategory(cat)}
@@ -204,7 +204,7 @@ return (
 I hold a degree in Electronic Engineering from the <Link href='https://unal.edu.co/' className={styles.linksunal}> National University of Colombia</Link>
 (UNAL), and I completed a postgraduate specialization in Data Science and Artificial Intelligence from the <Link href='https://udemedellin.edu.co/' className={styles.linksudem}>
 Universidad De Medellín</Link>.
-This academic background gave me solid foundations in both hardware and software. 
+This academic background gave me solid foundations in both hardware and AI & Data Science. 
 I see this field as a continuous journey of learning—always discovering useful papers, tools, and concepts that inspire me to improve.
 </p>
 
