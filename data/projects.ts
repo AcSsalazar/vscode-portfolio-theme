@@ -16,7 +16,7 @@ export const projects: Project[] = [
     slug: 'driwwwle',
   },
   {
-    title: 'VSCode Portfolio Fork',
+    title: 'VSCode-theme Portfolio',
     description:
       'A Visual Studio Code–themed developer portfolio built with Next.js and CSS Modules, including skills visualizations.',
     logo: '/logos/vsc.svg',
