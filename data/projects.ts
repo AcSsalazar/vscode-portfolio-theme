@@ -36,7 +36,7 @@ export const projects: Project[] = [
     description:
       'Full academic guidance for building your own speech recognition model from scratch using RAVDESS and CREMA databases. The project includes data preprocessing, model training, and evaluation.',
     logo: '/logos/ai-platform.svg',
-    link: 'https://github.com/AcSsalazar/RAG_with_LangChain_and_Pinecone',
+    link: 'https://github.com/AcSsalazar/the-color-of-emotions',
     slug: 'speech-emotion-recognition',
   },
     {

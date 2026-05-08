@@ -45,9 +45,9 @@ const AboutPage = () => {
   };
 
   const dataSets = {
-    'Full-Stack': [[9, 8, 8, 8, 7]], 
-    'AI & Data Science': [[9, 7, 7, 8, 8]],
-    'DevOps': [[7, 8, 7, 6, 8]]
+    'Full-Stack': [[9, 8, 8, 8, 10, 7]], 
+    'AI & Data Science': [[9, 7, 7, 7, 8, 8]],
+    'DevOps': [[7, 7, 8, 7, 7, 6]]
   };
 
   const colors = {
