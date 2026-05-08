@@ -17,6 +17,7 @@ const CustomHead = ({ title }: CustomHeadProps) => {
         content="Andres Camilo Salazar, acsalazar, web developer, portfolio, full-stack developer, data analyst, MERN stack, Python, React, Django, data visualization, AI"
       />
       <meta property="og:title" content="Andres Camilo's Portfolio" />
+      <meta property="og:title" content="Andres Camilo's Portfolio" />
       <meta
         property="og:description"
         content="Full-stack developer and data analyst — building powerful tools and data visualizations that bring insights to life."

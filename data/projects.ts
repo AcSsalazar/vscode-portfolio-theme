@@ -8,14 +8,15 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Market Place with Wompi',
-    description:'Fully functional marketplace web application integrated with Bancolombia’s Wompi payment gateway.',
-    logo: '/logos/mp-icon2.svg',
+    title: 'Full-Stack base E-commerce with Wompi API',
+    description:
+      'Fully functional E-comerce web application integrated with Bancolombia’s Wompi payment gateway.',
+    logo: '/logos/mp-icon1.svg',
     link: 'https://github.com/AcSsalazar/Market_Place_with_Wompi_API',
-    slug: 'market-wompi',
+    slug: 'ecommerce-wompi',
   },
   {
-    title: 'VSCode Portfolio Fork',
+    title: 'VSCode-theme Portfolio',
     description:
       'A Visual Studio Code–themed developer portfolio built with Next.js and CSS Modules, including skills visualizations.',
     logo: '/logos/vsc.svg',
@@ -23,19 +24,27 @@ export const projects: Project[] = [
     slug: 'vscode-portfolio',
   },
   {
-    title: 'XGB and RF Diabetes Classificator',
+    title: 'XGB Diabetes Classificator',
     description:
       'A complete predictor for diabetes diagnosis using pre-trained XGBoost and Random Forest models. Includes a user interface and input preprocessing.',
     logo: '/logos/ML-icon.svg',
     link: 'https://github.com/AcSsalazar/XGB_Diabetes_Classificator',
-    slug: 'ml-predictor',
+    slug: 'diabetes-classificator-xbgboost',
   },
   {
-    title: 'RAG system with Pinecone and LangChain',
+    title: 'Speech Emotion Recognition with CBiGRU',
     description:
-      'Retrieval-Augmented Generation (RAG) system using Pinecone vector database and LangChain for document-based question answering.',
+      'Full academic guidance for building your own speech recognition model from scratch using RAVDESS and CREMA databases. The project includes data preprocessing, model training, and evaluation.',
     logo: '/logos/ai-platform.svg',
-    link: 'https://github.com/AcSsalazar/Forms-With-RAG',
-    slug: 'smart-pdf-based-responses',
+    link: 'https://github.com/AcSsalazar/the-color-of-emotions',
+    slug: 'speech-emotion-recognition',
+  },
+    {
+    title: 'GeoSPTLab: Geotechnical Engineering Platform',
+    description:
+      'A professional web application for calculating geotechnical soil resistance parameters (φ′, c′, E, Su, τ) from Standard Penetration Test (SPT) results.',
+    logo: '/logos/soil.svg',
+    link: 'https://github.com/AcSsalazar/GeoSPTLab',
+    slug: 'geosptlab',
   },
 ];
