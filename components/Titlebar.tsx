@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-import styles from '@/styles/Titlebar.module.css';
+import styles from "@/styles/Titlebar.module.css";
 /* */
 const Titlebar = () => {
   return (
     <section className={styles.titlebar}>
-      <Image 
+      <Image
         src="/logos/vscode_icon.svg"
         alt="VSCode Icon"
         height={15}
@@ -23,35 +23,24 @@ const Titlebar = () => {
       </div>
       <p className={styles.title}>Andres Salazar Porfolio</p>
       <div className={styles.windowButtons}>
-       
         <span className={styles.minimize}>
-
           <Image
             src="/minimize.png"
             alt="Minimize Icon"
-            height={15}
-            width={15}
-            
+            height={10}
+            width={10}
           />
-
         </span>
         <span className={styles.maximize}>
-
           <Image
             src="/maximize2.png"
             alt="Maximize Icon"
-            height={15}
-            width={15}
+            height={10}
+            width={10}
           />
         </span>
         <span className={styles.close}>
-
-          <Image 
-            src="/close.png"
-            alt="Close Icon"
-            height={15}
-            width={15}
-          />
+          <Image src="/close.png" alt="Close Icon" height={10} width={10} />
         </span>
       </div>
     </section>

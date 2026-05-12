@@ -13,8 +13,8 @@ const ProjectsPage = () => {
       </p>
 
       <div className={styles.container}>
-        {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
+        {projects.map((project, index) => (
+          <ProjectCard key={project.slug} project={project} index={index +1} />
         ))}
       </div>
     </div>
