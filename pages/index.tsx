@@ -5,42 +5,23 @@ import styles from '@/styles/HomePage.module.css';
 
 export default function HomePage() {
   const [activeLineIndex, setActiveLineIndex] = useState(0);
-
-  const codeLines = [
-    { code: 'const HomePage = () => {', type: 'function' },
-    {
-      code: '  const [isLoaded, setIsLoaded] = useState(true);',
-      type: 'variable',
-    },
-    { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Andres Salazar',", type: 'array-item' },
-    { code: "    role: 'Full Stack Web Developer - Data analyst',", type: 'array-item' },
-    { code: "    bio: 'Hi visitor, welcome to my portfolio, in this website....'", type: 'array-item' },
-    { code: '  };', type: 'array-end' },
+const codeLines = [
+    { code: '   Engineer - Data Specialist - Full Stack Dev', type: 'variable' },
     { code: '', type: 'blank' },
-    { code: '  useEffect(() => {', type: 'nested-function' },
-    {
-      code: '    document.title = `${developerInfo.name} | Portfolio`;',
-      type: 'return',
-    },
-    { code: '    setIsLoaded(true);', type: 'function-call' },
-    { code: '  }, []);', type: 'close' },
+    { code: 'Hi visitor, welcome to my portfolio. Here you will find =', type: 'object-method' },
     { code: '', type: 'blank' },
-    { code: '  return (', type: 'return-object' },
-    { code: '    <main className="hero-container">', type: 'object-method' },
-    { code: '      <h1>{developerInfo.name}</h1>', type: 'object-method' },
-    { code: '      <p>{developerInfo.role}</p>', type: 'object-method' },
-    { code: '      <div className="cta">', type: 'object-method' },
-    {
-      code: '        <Link href="/about">About Me</Link>',
-      type: 'object-method',
-    },
-    { code: '      </div>', type: 'object-method' },
-    { code: '    </main>', type: 'object-method' },
-    { code: '  );', type: 'close' },
-    { code: '};', type: 'close-function' },
+    { code: '[', type: 'array-end' },
     { code: '', type: 'blank' },
-    { code: 'export default HomePage;', type: 'function-call' },
+    { code: '1. Profile, skills, and education', type: 'function-call' },
+    { code: '2. Contact Channels', type: 'function-call' }, // Corrección: "Channels"
+    { code: '3. Public GitHub Projects', type: 'function-call' },
+    { code: '4. Hobbies and Interests', type: 'function-call' }, // Corrección: "Interests"
+    { code: '5. GitHub Overview', type: 'function-call' },
+    { code: ']', type: 'array-end' },
+    { code: '', type: 'blank' },
+    { code: '                Hope you enjoy navigating it!', type: 'function' }, // Corrección: "navigating"
+    { code: '', type: 'blank' },
+    { code: '                            :) ', type: 'function' },
   ];
 
   useEffect(() => {
@@ -54,7 +35,14 @@ export default function HomePage() {
   return (
     <div className={styles.heroLayout}>
       <div className={styles.container}>
-        <div className={styles.codeSection}>
+
+
+        <div className={styles.infoSection}>
+          <h1 className={styles.developerName}>
+            Andres <span className={styles.accentText}>Salazar</span>
+          </h1>
+
+              <div className={styles.codeSection}>
           <div className={styles.codeContainer}>
             <div className={styles.editorContent}>
               <div className={styles.lineNumbers}>
@@ -87,20 +75,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        <div className={styles.infoSection}>
-          <h1 className={styles.developerName}>
-            Andres <span className={styles.accentText}>Salazar</span>
-          </h1>
-
-          <div className={styles.developerRole}>Full Stack Web Developer - Data analyst</div>
-
-          <p className={styles.bio}>
-            Hi visitor, welcome to my portfolio, in this website you will fing some of my projects, 
-            my contact chanels and a little bit about me.
-            Hope you enjoy navigatin it!
-
-          </p>
 
           <div className={styles.actionLinks}>
             <Link href="/about" className={styles.primaryLink}>
