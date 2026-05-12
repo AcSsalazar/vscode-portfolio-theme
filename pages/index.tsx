@@ -17,7 +17,7 @@ export default function HomePage() {
     },
     { code: "Here_you_will_find = ", type: "variable" },
     { code: "{", type: "comment" },
-    { code: "1: [Profile, skills, and_education],", type: "function-call" },
+    { code: "1: [Profile, Skills, Education],", type: "function-call" },
     { code: '2: "Contact Channels",', type: "function-call" }, // Corrección: "Channels"
     { code: '3: "Public Projects",', type: "function-call" },
     { code: '4: "Hobbies and Interests",', type: "function-call" }, // Corrección: "Interests"
