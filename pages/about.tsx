@@ -141,20 +141,22 @@ return (
 
       <div className={styles.aboutContent}>
         <section className={styles.section}>
-          <p className={styles.paragraph}>
-            Hey! I&apos;m an electronic engineer from Colombia. I primarily work with React,
-            Next.js, Python, and AWS.
-          </p>
-          <p className={styles.paragraph}>
-            My main focus is frontend development using React, often paired with Django for the backend.
-            But I also spend a good amount of time working with Python notebooks, AWS services, and data analytics.
-            I genuinely enjoy bringing interfaces to life through clean, responsive design.
-            <br /><br />
-            I build fully responsive web applications using modern technologies, with a strong focus
-            on intuitive user experiences and dynamic data visualizations.
-            My work often supports machine learning models, neural networks, AI agents, and analytical reports—
-            translating complex data into clear, actionable insights through user-friendly interfaces.
-          </p>
+<p className={styles.paragraph}>
+  Hey! I&apos;m an Electronics Engineer from Colombia focused on AI-powered
+  web applications, full-stack development, and machine learning systems.
+  I primarily work with React, Next.js, Python, FastAPI, and AWS.
+</p>
+
+<p className={styles.paragraph}>
+  My work combines modern frontend development with backend architectures,
+  data processing, and AI integration. I enjoy building responsive interfaces,
+  scalable APIs, and interactive data visualizations that transform complex
+  information into intuitive user experiences.
+  <br /><br />
+  I&apos;ve worked on projects involving neural networks, signal processing,
+  multimodal AI pipelines, and analytical platforms, always with a strong
+  focus on performance, usability, and clean software architecture.
+</p>
         </section>
 
         <section className={styles.section}>
